@@ -1,0 +1,109 @@
+html {
+  background-image: url(Fotos/inicio2.jpg); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center; 
+  height: 100%; 
+  margin: 0; 
+  padding: 0; 
+}
+
+* {
+    font-family: initial;
+    margin: 0; 
+    padding: 0;
+}
+
+footer {
+    background-color: #ffffff51;
+    padding: 0.5em 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0; 
+    color:rgb(23, 23, 147);
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  nav {
+    text-align: center;
+   
+  }
+  h1 {
+    margin-top: 250px;
+    font-size: 45px;
+    color:  rgb(0, 0, 0);
+  }
+  p {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    color: rgb(12, 77, 112);
+    background-color: darkcyan;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px; /* Ajusta según sea necesario */
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+  }
+  
+ a:hover {
+    color: rgb(255, 0, 0);
+  }
+h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sombras {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+               -2px -2px 4px rgba(0, 0, 0, 0);
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+}
+
+
+@media only screen and (max-width: 767px) {
+  body {
+      font-size: 14px;
+  }
+  footer {
+      font-size: 14px;
+  }
+  html {
+      background-size: cover; 
+  }
+
+}
+
+  
+  
+
+
